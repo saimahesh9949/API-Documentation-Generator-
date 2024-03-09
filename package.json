@@ -1,15 +1,28 @@
 {
   "name": "api-documentation-generator",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Generate API documentation from code comments using JSDoc.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "documentation",
+    "generator",
+    "jsdoc"
+  ],
+  "author": "Your Name",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saimahesh9949/API-Documentation-Generator-.git"
+  },
   "devDependencies": {
     "jsdoc": "^4.0.2"
+  },
+  "dependencies": {
+    "api-documentation-generator": "^1.0.0",
+    "jsdoc-api": "^8.0.0"
   }
 }
